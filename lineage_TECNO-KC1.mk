@@ -11,10 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from TECNO-KC1 device
-$(call inherit-product, device/tecno/TECNO-KC1/device.mk)
+$(call inherit-product, device/tecno/TECNO_KC1/device.mk)
 
-PRODUCT_DEVICE := TECNO-KC1
-PRODUCT_NAME := lineage_TECNO-KC1
+PRODUCT_DEVICE := TECNO_KC1
+PRODUCT_NAME := lineage_TECNO_KC1
 PRODUCT_BRAND := TECNO
 PRODUCT_MODEL := TECNO KC1
 PRODUCT_MANUFACTURER := tecno

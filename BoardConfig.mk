@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/tecno/TECNO-KC1
+DEVICE_PATH := device/tecno/TECNO_KC1
 
 # Architecture
 TARGET_ARCH := arm
@@ -35,7 +35,7 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_CONFIG := TECNO-KC1_defconfig
-TARGET_KERNEL_SOURCE := kernel/tecno/TECNO-KC1
+TARGET_KERNEL_SOURCE := kernel/tecno/TECNO_KC1
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
@@ -80,4 +80,4 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Inherit the proprietary files
-include vendor/tecno/TECNO-KC1/BoardConfigVendor.mk
+include vendor/tecno/TECNO_KC1/BoardConfigVendor.mk

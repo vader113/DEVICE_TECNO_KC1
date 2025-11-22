@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_TECNO-KC1.mk
+    $(LOCAL_DIR)/lineage_TECNO_KC1.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_TECNO-KC1-user \
-    lineage_TECNO-KC1-userdebug \
-    lineage_TECNO-KC1-eng
+    lineage_TECNO_KC1-user \
+    lineage_TECNO_KC1-userdebug \
+    lineage_TECNO_KC1-eng
