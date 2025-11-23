@@ -40,9 +40,9 @@ PRODUCT_PACKAGES += \
     meta_init.project.rc \
     meta_init.rc \
     multi_init.rc \
-    init.rc \
     init.recovery.mt6761.rc \
-    ueventd.rc \
+    MTKThermalManager \
+    dtb.img \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
@@ -50,3 +50,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/tecno/TECNO_KC1/TECNO_KC1-vendor.mk)
+
+# Rootdir files
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/ueventd.mt6761.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc
