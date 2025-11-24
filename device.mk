@@ -4,6 +4,21 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Device identifier
+PRODUCT_DEVICE := TECNO_KC1
+PRODUCT_NAME := lineage_TECNO_KC1
+PRODUCT_BRAND := TECNO
+PRODUCT_MODEL := TECNO KC1
+PRODUCT_MANUFACTURER := tecno
+
+# Build properties
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.product.device=TECNO_KC1 \
+    ro.product.name=lineage_TECNO_KC1 \
+    ro.product.brand=TECNO \
+    ro.product.model=TECNO_KC1 \
+    ro.product.manufacturer=tecno
+
 # API levels
 PRODUCT_SHIPPING_API_LEVEL := 28
 
@@ -23,7 +38,7 @@ PRODUCT_CHARACTERISTICS := default
 PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
-    fstab.enableswap \
+    fstab.mt6761 \
     factory_init.connectivity.rc \
     factory_init.project.rc \
     factory_init.rc \

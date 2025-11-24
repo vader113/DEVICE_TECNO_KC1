@@ -1,4 +1,10 @@
 dalvik.vm.stack-trace-dir=/data/anr
+ro.product.device=TECNO_KC1
+ro.product.brand=TECNO
+ro.product.model=TECNO KC1
+ro.product.name=TECNO_KC1
+ro.product.manufacturer=TECNO
+ro.display.series=TECNO KC1
 mediatek.wlan.ctia=0
 net.bt.name=Android
 persist.midtest.ps.cali.diff3=10
